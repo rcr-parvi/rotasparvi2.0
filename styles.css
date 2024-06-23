@@ -35,8 +35,9 @@ header .logo-left img, header {
     width: auto;
 }
 
-.logo-right img {
-    width: 150px;
+.logo {
+    width: 200px;
+   
 }
 
 nav ul {
@@ -69,7 +70,7 @@ main {
     flex-grow: 1;
 }
 
-section {
+section{
     flex: 1 1 350px;
     margin: 10px;
     padding: 20px;
@@ -77,8 +78,12 @@ section {
     border-radius: 5px;
     background-color: #cbe9d0;
     text-align: center;
-    min-height: 200px;
+    min-height: auto;
+    margin-bottom: auto;
 }
+
+
+
 
 section#rotas-botoes button{
     display: block;
@@ -144,7 +149,23 @@ footer {
     section {
         margin: 0 0 10px 0;
     }
+
+    .footer {
+        
+            background-color: #45b463;
+            color: #e0f7fa;
+            text-align: center;
+            padding: 10px;
+            margin-top: auto; 
+    }
+     
+     #rotas-diretas {
+    
+       margin-bottom: auto;
+    }
+
 }
+
 
 .myButton {
 	background-color:#44c767;
@@ -175,7 +196,7 @@ footer {
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:35px;
+	font-size:14px;
 	padding:15px 19px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #2f6627;
@@ -212,3 +233,11 @@ footer {
 }
 
 
+
+.caixa-conteudo {
+    border: 1px solid #54d398;
+    border-radius: 5px;
+    background-color: #aed7c6;
+    padding: 20px;
+    margin-top: 20px;
+}
