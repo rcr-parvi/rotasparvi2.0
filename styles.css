@@ -164,6 +164,11 @@ footer {
        margin-bottom: auto;
     }
 
+    header .logo-left img, header {
+        height: 50px;
+        width: auto;
+    }
+
 }
 
 
