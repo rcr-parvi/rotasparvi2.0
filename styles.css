@@ -6,7 +6,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #ffffff;
-    display: flex;
+    display: auto;
     flex-direction: column;
     min-height: 100vh;
 }
@@ -26,8 +26,10 @@ header {
 }
 
 
+
 header h1 {
     flex-grow: 1;
+    
 }
 
 header .logo-left img, header {
@@ -135,7 +137,8 @@ footer {
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
+    
     nav ul li {
         display: block;
         margin-bottom: 10px;
@@ -162,11 +165,6 @@ footer {
      #rotas-diretas {
     
        margin-bottom: auto;
-    }
-
-    header .logo-left img, header {
-        height: 50px;
-        width: auto;
     }
 
 }
